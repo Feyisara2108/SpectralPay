@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { ChevronDown, Shield, Check, Users, Globe, Lock, Zap, ArrowRight, Menu, X } from 'lucide-react';
 
 interface ConnectedWallet {
@@ -240,14 +240,14 @@ const LandingPage = () => {
                   href="/auth"
                   className="inline-flex items-center justify-center bg-gradient-to-r from-teal-500 to-emerald-600 hover:from-teal-600 hover:to-emerald-700 px-8 py-4 rounded-xl font-semibold text-lg transition-all transform hover:scale-105"
                 >
-                  I'm a Worker
+                  {"I'm a Worker"}
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </a>
                 <a
                   href="/auth"
                   className="inline-flex items-center justify-center border-2 border-gray-600 hover:border-teal-500 px-8 py-4 rounded-xl font-semibold text-lg transition-all hover:bg-teal-500/10"
                 >
-                  I'm an Employer
+                  {"I'm an Employer"}
                 </a>
               </div>
 
@@ -406,7 +406,7 @@ const LandingPage = () => {
                 <span className="text-lg font-bold">SpectralPay</span>
               </div>
               <p className="text-gray-400 mb-6">
-                The world's first anonymous payment platform. Work freely, get paid fairly.
+                {"The world's first anonymous payment platform. Work freely, get paid fairly."}
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
